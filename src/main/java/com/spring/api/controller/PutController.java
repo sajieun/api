@@ -26,4 +26,8 @@ public class PutController {
     public MemberDto putMemberDto2(@RequestBody MemberDto memberDto){
         return memberDto;
     }
+    @PutMapping("/member3")
+    public MemberDto putMemberDto3(@RequestBody MemberDto memberDto){
+        return memberDto;
+    }
 }
